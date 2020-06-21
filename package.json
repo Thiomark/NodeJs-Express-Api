@@ -1,0 +1,13 @@
+{
+    "name": "Express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "NODE",
+        "dev": "nodemon serve"
+    },
+    "keywords": [],
+    "author": "Itumeleng Tsoela",
+    "license": "ISC"
+}
