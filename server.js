@@ -10,11 +10,9 @@ const app = express();
 // Creating a middleware
 
 const logger = (req, res, next) => {
-    // This function will run on ever middleware that we created
-    req.hello = "Hello World";
-    console.log("milldeware ran");
-
-    // We use next so that it know to go to the next middlewear
+    console.log(
+        `${req.method}, ${req.protocol}://${req.get("host")} ${req.originalUrl}`
+    );
     next();
 };
 

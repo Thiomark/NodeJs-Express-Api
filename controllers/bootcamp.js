@@ -7,7 +7,7 @@ exports.getBootcamps = (req, res, next) => {
         success: true,
         message: "Getting all Bootcamps",
         // The middleware
-        hello: req.hello,
+        // hello: req.hello,
     });
 };
 
